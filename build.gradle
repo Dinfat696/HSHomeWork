@@ -18,6 +18,14 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springdoc:springdoc-openapi-ui:1.6.3'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.9.2'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'javax.persistence:javax.persistence-api:2.2'
+    implementation 'com.borjaglez:springify-repository:0.3.3'
+    implementation 'org.postgresql:postgresql:42.6.0'
+
+
 }
 
 tasks.named('test') {
